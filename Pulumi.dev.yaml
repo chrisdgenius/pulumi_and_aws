@@ -1,0 +1,9 @@
+config:
+  aws:region: us-east-1
+  pulumi_aws:clustserIdentifier: my-redshift-cluster
+  pulumi_aws:clusterNodeType: ra3.xlplus
+  pulumi_aws:clusterDBName: dev
+  pulumi_aws:clusterDBUsername: admin
+  pulumi_aws:clusterDBPassword:
+    secure: AAABAEwMyQgg6bjCTDAuiO8ACaKCjU+u2vyvcdojSmrvZDFo3yx/6aapfw==
+  pulumi_aws:clusterIdentifier: my-redshift-cluster

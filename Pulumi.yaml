@@ -1,0 +1,11 @@
+name: pulumi_aws
+description: The uses pulumi to configure aws redshift
+runtime:
+  name: python
+  options:
+    toolchain: pip
+    virtualenv: venv
+config:
+  pulumi:tags:
+    value:
+      pulumi:template: aws-python
